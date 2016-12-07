@@ -11,7 +11,7 @@
     "title": "Angular 2",
     "logo": "http://fountainjs.io/assets/imgs/angular2.png",
     "text1": "One framework. Mobile and desktop.",
-    "text2": "In Angular you display data by defining components. Data in your component classes is automatically available to display in your templates or control how they render as in the example below."
+    "text2": "In Angular you display data by defining components. Data in your component classes is automatically available to display in your templates."
   },
   {
     "key": "browsersync",

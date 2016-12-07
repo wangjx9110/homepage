@@ -1,0 +1,14 @@
+<div class="item">
+  <img class="item-logo" [src]="work.logo"/>
+  <h3 class="item-title">
+    {{ work.title }}
+  </h3><span>| {{ work.job }}</span>
+  <p>{{ work.period }}</p>
+  <p>{{ work.description }} [wiki link]</p>
+  <fountain-link-image [info]="work.info"></fountain-link-image>
+  <p>Participated Projects:</p>
+  <hr>
+  <div class="link-image-container">
+    <fountain-link-image *ngFor="let project of work.projects" [info]="project"></fountain-link-image>
+  </div>
+</div>

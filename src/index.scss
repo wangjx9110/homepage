@@ -9,6 +9,12 @@ body, h1, h2, h3 {
   font-weight: 300
 }
 
+hr {
+  height: 1px;
+  border: none;
+  background-color: lightgray;
+}
+
 a {
   color: white;
   text-decoration: none;
@@ -16,6 +22,10 @@ a {
   &:hover {
     color: #5aadbb;
   }
+}
+
+fountain-work {
+  width: 50%;
 }
 
 .main-container {
@@ -57,6 +67,9 @@ a {
   text-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 .title-h1 {
+  position: relative;
+  top: 9px;
+  left: 20px;
   font-weight: 300;
   font-size: 4rem;
   margin: 1rem;
@@ -68,9 +81,34 @@ a {
   margin: 1rem;
 }
 .title-h2 {
+  position: relative;
+  top: -18px;
+  left: 20px;
   font-weight: 300;
   font-size: 2rem;
   margin: .5rem;
+}
+.title-constraint {
+  position: relative;
+  max-width: 1280px;
+  width: 100%;
+  text-align: center;
+}
+.title-seal {
+  background: #fff;
+  width: 85px;
+  height: 85px;
+  position: absolute;
+  left: 150px;
+  top: 52px;
+  border-radius: .5rem;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title-seal img {
+  width: 95%;
 }
 
 .footer {
@@ -84,32 +122,99 @@ a {
 .techs-container {
   margin: 1rem;
 }
-.techs-h2 {
-  font-weight: 300;
-  font-size: 1.5rem;
+
+.container-title {
+  text-align: center;
+  text-transform: capitalize;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size:2rem;
+  font-family: 'EB Garamond', serif;
 }
-.techs {
+
+.techs, .works {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-.tech {
+.item {
   height: 15rem;
-  width: 15rem;
   border: 1px solid lightgray;
   border-radius: 1rem;
   margin: 1rem;
   padding: 1rem;
 }
-.tech-logo {
+
+.item-logo {
   width: 5rem;
   height: 5rem;
   float: right;
   margin: 0 0 .5rem .5rem;
 }
-.tech-h3 {
+
+.item-title {
   font-size: 1.5rem;
   margin: 0 0 2rem 0;
+}
+
+.works .item-logo {
+  width: 9rem;
+  height: auto;
+  margin: .5rem 1rem;
+}
+
+.works .item-title {
+  display: inline;
+}
+
+.techs .item {
+  width: 15rem;
+}
+
+.works .item {
+  height: auto;
+}
+.link-image-container {
+  display: flex;
+}
+.link-image-container fountain-link-image:first-child {
+  margin: .5rem .5rem 0 0;
+}
+.link-image-container fountain-link-image:last-child {
+  margin: .5rem 0 0 .5rem;
+}
+fountain-link-image {
+  flex: 1;
+}
+.link-image {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center center;
+  background-size: 100%;
+  height: 5rem;
+  border-radius: .7rem;
+  cursor: pointer;
+}
+.link-image p {
+  color: #222;
+  font-size: 1.5rem;
+  z-index: 1;
+  pointer-events: none;
+}
+.link-image-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  opacity: 0.8;
+  transition: opacity 1s;
+}
+.link-image-mask:hover {
+  opacity: 0.6;
 }

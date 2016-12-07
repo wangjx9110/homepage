@@ -1,0 +1,62 @@
+[
+  {
+    "key": "alibaba",
+    "title": "Alibaba Group",
+    "logo": "./assets/imgs/alibaba_logo.png",
+    "info": {
+      "name": "Alibaba",
+      "link": "http://www.alibabagroup.com/en/global/home",
+      "image": "./assets/imgs/alibaba.jpg"
+    },
+    "link": "http://www.alibabagroup.com/en/global/home",
+    "job": "Front-end Engineer",
+    "period": "March 2014 - March 2016  ",
+    "slogan": "To make it easy to do business anywhere.",
+    "description": "A Chinese e-commerce company that provides consumer-to-consumer, business-to-consumer and business-to-business sales services via web portals. It also provides electronic payment services, a shopping search engine and data-centric cloud computing services.",
+    "projects": [
+      {
+        "name": "DingTalk",
+        "description": "DingTalk Description",
+        "link": "https://www.dingtalk.com/",
+        "image": "./assets/imgs/dingtalk.png"
+      },
+      {
+        "name": "LaiWang",
+        "description": "(Current Name: DianDianChong)",
+        "link": "http://www.laiwang.com/",
+        "image": "./assets/imgs/laiwang.png"
+      }
+    ],
+    "images": ["", "", ""]
+  },
+  {
+    "key": "baidu",
+    "title": "Baidu, Inc.",
+    "logo": "./assets/imgs/baidu_logo.png",
+    "info": {
+      "name": "Baidu",
+      "link": "http://www.baidu.com",
+      "image": "./assets/imgs/baidu.jpg"
+    },
+    "link": "http://www.baidu.com",
+    "job": "Front-end Engineer (Internship)",
+    "period": "July 2013 - November 2013 ",
+    "slogan": "Baidu it, and you'll know.",
+    "description": "A Chinese web services company headquartered at the Baidu Campus in Beijing's Haidian District. Baidu offers many services, including a Chinese search engine for websites, audio files and images. It is one of the largest Internet companies in the world.",
+    "projects": [
+      {
+        "name": "MUNION",
+        "description": "MUNION Description",
+        "link": "http://munion.baidu.com/",
+        "image": "./assets/imgs/munion.png"
+      },
+      {
+        "name": "APPADS",
+        "description": "APPADS Description",
+        "link": "http://appads.baidu.com/",
+        "image": "./assets/imgs/appads.png"
+      }
+    ],
+    "images": ["", ""]
+  }
+]
