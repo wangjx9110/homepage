@@ -1,7 +1,8 @@
 html, body, #root {
   margin: 0;
   height: 100%;
-  font-family: 'Open Sans', sans-serif;
+  // font-family: 'Open Sans', sans-serif;
+  font-family: 'Josefin Slab', serif;
 }
 
 body, h1, h2, h3 {
@@ -52,6 +53,8 @@ a {
   padding: 1rem;
   background-color: #cf4646;
   color: white;
+  font-family: 'Kalam', cursive;
+  text-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 .title-h1 {
   font-weight: 300;
